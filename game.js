@@ -1,3 +1,13 @@
+document.getElementById("rock").addEventListener("click", function() {
+    playGame(0)
+})
+document.getElementById("paper").addEventListener("click", function () {
+    playGame(1)
+});
+document.getElementById("scissors").addEventListener("click", function () {
+    playGame(2)
+});
+
 //Let's say 0 is paper, 1 is rock and 2 are scissors
 function getComputerResult() {
   let result = Math.floor(Math.random() * 3);
