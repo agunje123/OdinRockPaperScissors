@@ -1,21 +1,29 @@
 @font-face {
-    font-family: 'TiltWarp';
-    src: url('assets/font/TiltWarp-Regular.ttf') format('truetype');
-  }
+	font-family: "TiltWarp";
+	src: url("assets/font/TiltWarp-Regular.ttf") format("truetype");
+}
 
 body {
-    font-family: 'TiltWarp', sans-serif;
-    color: #CAAD7E;
-    background-color: #D5E7B8;
+	font-family: "TiltWarp", sans-serif;
+	color: #caad7e;
+	background-color: #d5e7b8;
 }
 
 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+}
+
+div img {
+    width: 5rem;
 }
 
 .title {
-    font-size: 5rem;
+	font-size: 5rem;
+}
+
+.subtitle {
+    font-size: 2.5rem;
 }
