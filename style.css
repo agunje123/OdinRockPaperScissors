@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'TiltWarp';
+    src: url('assets/font/TiltWarp-Regular.ttf') format('truetype');
+  }
+
 body {
+    font-family: 'TiltWarp', sans-serif;
+    color: #CAAD7E;
     background-color: #D5E7B8;
 }
 
