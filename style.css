@@ -38,6 +38,22 @@ main {
 	flex: 1;
 }
 
+button {
+	border-radius: 10px;
+	border: 0px;
+	background-color: var(--accent);
+	font-size: 80px;
+}
+
+button:hover {
+	background-color: var(--primary);
+	transition: all 0.5s;
+}
+
+.buttons {
+	gap: 20px;
+}
+
 footer {
 	display: flex;
 	align-items: center;
