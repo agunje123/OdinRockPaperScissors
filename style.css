@@ -35,7 +35,16 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    flex-direction: column;
 	flex: 1;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 button {

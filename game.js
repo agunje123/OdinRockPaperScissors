@@ -1,5 +1,7 @@
 let computerResult = 0;
 let playerResult = 0;
+const playerScore = document.getElementById("playerScore");
+const computerScore = document.getElementById("computerScore");
 
 //Let's say 0 is paper, 1 is rock and 2 are scissors
 function getComputerSelection() {
@@ -17,15 +19,15 @@ function playRound(playerSelection) {
 		(playerSelection === 2 && computerSelection === 0)
 	) {
 		playerResult++;
-		return "You win!";
+		playerScore.textContent = playerResult;
 	} else {
 		computerResult++;
-		return "You lose!";
+		computerScore.textContent = computerResult;
 	}
 }
 
 function playGame(playerSelection) {
-	console.log(playRound(playerSelection));
+	playRound(playerSelection);
 	if (playerResult === 5) {
 		console.log("You win the match!");
 		playerResult = 0;
